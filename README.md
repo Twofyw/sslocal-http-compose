@@ -6,7 +6,8 @@ This is my first step to dockerizing everything. What's in the queue:
 - Jekyll (write a blog)
 - Vim (take vim everywhere)
 - Borg (automate backup)
-- Transmission (steal some resources (~‾▿‾)~)
+- Transmission (steal some resources (\~‾▿‾)\~)
+- Firefox with VNC (open a jupypter window on the server so training history is preserved)
 - Further projects ([useful?](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/))
 
 ## Quick start
