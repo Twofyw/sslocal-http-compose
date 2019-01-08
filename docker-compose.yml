@@ -1,0 +1,26 @@
+version: "3"
+services:
+
+    shadowsocks:
+        image: shadowsocks/shadowsocks-libev
+        networks:
+            - shadowsocks
+        ports:
+            - "1080"
+        volumes:
+            - ./config.json:/config.json
+        command: /usr/bin/ss-local -c /config.json
+
+    privoxy:
+        image: vimagick/privoxy
+        ports:
+            - "8118:8118"
+        networks:
+            - shadowsocks
+        command: >
+            sh -c 'echo "forward-socks5t / shadowsocks:1080 .">>/etc/privoxy/config &&
+            gosu privoxy privoxy --no-daemon /etc/privoxy/config'
+
+networks:
+    shadowsocks:
+
