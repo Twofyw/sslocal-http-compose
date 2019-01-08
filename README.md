@@ -1,6 +1,6 @@
 # sslocal-http-compose
 A docker-compose.yml that quickly starts a shadowsocks client with a socks5-to-http proxy converter.
-Useful for quickly deploying to a new server or personal Linux desktop.
+Useful for deploying to a new server or a personal Linux desktop.
 
 This is my first step to dockerizing everything. What's in the queue:
 - Jekyll (write a blog)
@@ -10,7 +10,7 @@ This is my first step to dockerizing everything. What's in the queue:
 - Further projects ([useful?](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/))
 
 ## Quick start
-First, you need a shadowsocks server :). 
+Firstly, you need a shadowsocks server :). 
 
 Once you've got that, all you need to do is placing the configuration file under this folder and `docker-compose up -d`. Then the http proxy should be already listening on port 8118 on host XD.
 
@@ -31,5 +31,5 @@ See the [config file documentation](https://github.com/shadowsocks/shadowsocks/w
 Exposes port 1080 on docker network.
 
 #### privoxy
-Convert socks5 proxy to http proxy for compatibility. Exposes port 8118 on host.
+Converts socks5 proxy to http proxy for compatibility. Exposes port 8118 on host.
 
