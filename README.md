@@ -17,7 +17,7 @@ Creates a new docker network _docker\_shadowsocks_.
 #### shadowsocks
 Based on shadowsocks/shadowsocks-libev. But instead of starting a shadowsocks server, the CMD is overridden so ss-local is started instead.
 
-For convenience, the configuration file is bound from a local file as a volume. You should place the configuration file under the same folder and rename it to `config.json`.
+For convenience, the configuration file is bound from a local file as a volume. You should place the configuration file under the same folder and rename it to `config.json`. Note: You should set local listening port to 1080 in config.json.
 
 See the [config file documentation](https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File) for reference.
 
