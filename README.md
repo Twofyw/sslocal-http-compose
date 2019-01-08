@@ -2,6 +2,13 @@
 A docker-compose.yml that quickly starts a shadowsocks client with a socks5-to-http proxy converter.
 Useful for quickly deploying to a new server or personal Linux desktop.
 
+This is my first step to dockerizing everything. What's in the queue:
+- Jekyll (write a blog)
+- Vim (take vim everywhere)
+- Borg (automate backup)
+- Transmission (steal some resources (~‾▿‾)~)
+- Further projects ([useful?](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/))
+
 ## Quick start
 First, you need a shadowsocks server :). 
 
