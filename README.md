@@ -13,7 +13,7 @@ This is my first step to dockerizing everything. What's in the queue:
 ## Quick start
 Firstly, you need a shadowsocks server :). 
 
-Once you've got that, all you need to do is placing the configuration file under this folder and `docker-compose up -d`. Then the http proxy should be already listening on port 8118 on host XD.
+Once you've got that, all you need to do is placing the shadowsocks configuration file (config.json) under this folder and `docker-compose up -d`. Then the http proxy should be already listening on port 8118 on host XD.
 
 ## Components
 
