@@ -7,7 +7,7 @@ This is my first step to dockerizing everything. What's in the queue:
 - [ ] Vim (take vim everywhere)
 - [ ] Borg (automate backup)
 - [x] Transmission (steal some resources (\~‾▿‾)\~)
-- [ ] Firefox with VNC (open a jupypter window on the server so training history is preserved)
+- [x] Firefox with VNC (open a jupypter window on the server so training history is preserved)
 - Further projects ([useful?](http://jasonwilder.com/blog/2014/10/13/a-simple-way-to-dockerize-applications/))
 
 ## Quick start
